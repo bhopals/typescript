@@ -6,6 +6,12 @@ type Article = {
   description?: string;
 };
 
+enum classes {
+  FIRST,
+  SECOND,
+  THIRD,
+}
+
 const book: Article = {
   price: 29,
   vat: 0.2,
