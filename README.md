@@ -4,6 +4,9 @@
 
 ### 02. Typescript in 50 Lessons
 
+- 1.  To Enable TS in your JS file, just use `// @ts-check`
+  - With the addition of //@ts-check, TypeScript became active in our JavaScript file and showed the first list of problems.
+
 ### 03. Programming Typescript Oreilly
 
 ### How to find availble Types
