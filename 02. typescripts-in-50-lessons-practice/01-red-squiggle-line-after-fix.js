@@ -1,8 +1,6 @@
 // const storage = { max: undefined, items: [] };
 // Object.defineProperty(storage, "max", { writable: true, value: 5000 });
-
 // let currentStorageTS = undefined;
-
 // function storageUsedTS() {
 //   if (currentStorageTS) {
 //     return currentStorageTS;
