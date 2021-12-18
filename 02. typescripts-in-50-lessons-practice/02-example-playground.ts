@@ -17,3 +17,18 @@ const book: Article = {
   vat: 0.2,
   title: "Another book by Smashing Books",
 };
+
+// Generics
+type PossibleKeys = "meetup" | "conference" | "hackathon" | "webinar";
+
+type Groups = {
+  [k in PossibleKeys]: any;
+};
+
+type URLObject = { [k: string]: URL };
+type Loaded<Key> = { format: Key; loaded: boolean };
+async function loadFile<Formats extends URLObject, Key extends keyof Formats>(
+  fileFormats: Formats,
+  format: Key
+  // @ts-ignore
+): Promise<Loaded<Key>> {}

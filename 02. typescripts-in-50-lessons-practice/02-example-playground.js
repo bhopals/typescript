@@ -9,3 +9,6 @@ const book = {
     vat: 0.2,
     title: "Another book by Smashing Books",
 };
+async function loadFile(fileFormats, format
+// @ts-ignore
+) { }
