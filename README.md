@@ -1,5 +1,7 @@
 ## Typescript
 
+TypeScript is a structural type system
+
 ### 01. Deep Dive Typescript
 
 ### 02. Typescript in 50 Lessons
